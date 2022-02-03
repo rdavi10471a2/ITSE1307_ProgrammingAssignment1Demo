@@ -12,7 +12,7 @@ class Pyramid
 		int side;
 	public:
 		Pyramid();
-		Pyramid(string nameIn, int baseIn);
+		Pyramid(string nameIn, int sideIn);
 		string getName();
 		void setName(string nameIn);
 		int getSide();
