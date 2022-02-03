@@ -5,9 +5,11 @@ int main()
 {
 	Pyramid Pyramid1;
 	Pyramid1.readFromConsole();
-	
+	Pyramid1.outputToConsole();
+
 	Pyramid Pyramid2;
-	Pyramid1.readFromConsole();
+	Pyramid2.readFromConsole();
+	Pyramid2.outputToConsole();
 
 	Pyramid Pyramid3;
 	Pyramid3.readFromConsole();

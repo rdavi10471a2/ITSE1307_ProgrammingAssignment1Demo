@@ -35,7 +35,7 @@ void Pyramid::readFromConsole() {
 
 void Pyramid::drawMe()
 {
-	cout << "Programming Assignment 2 does this " << endl;
+	cout << "Programming Assignment 2 will do this we hope " << endl;
 }
 void Pyramid::outputToConsole()
 {
