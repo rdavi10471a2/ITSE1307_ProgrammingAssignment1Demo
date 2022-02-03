@@ -3,32 +3,32 @@
 
 Pyramid::Pyramid() {
 	name = "DefaultPyramid";
-	base = 1;
+	side = 1;
 }
 Pyramid::Pyramid(string nameIn, int baseIn)
 {
 	name = nameIn;
-	base = baseIn;
+	side = baseIn;
 }
 double Pyramid::getArea() {
-	return sqrt(3) / 4.0 * ((double)base * (double)base);
+	return sqrt(3) / 4.0 * ((double)side * (double)side);
 };
 
-int Pyramid::getPerimiter() { return 3 * base; };
+int Pyramid::getPerimiter() { return 3 * side; };
 
 
 string Pyramid::getName() { return name; }
 void Pyramid::setName(string nameIn) { name = nameIn; }
 
-int Pyramid::getBase() { return base; }
-void Pyramid::setBase(int baseIn) { base = baseIn; }
+int Pyramid::getSide() { return side; }
+void Pyramid::setSide(int sideIn) { side = sideIn; }
 
 
 void Pyramid::readFromConsole() {
-	cout << " Input Name " << endl;
+	cout << " Input Name For Pyramid " << endl;
 	cin >> name;
-	cout << " Input integer for base" << endl;
-	cin >> base;
+	cout << " Input integer for side" << endl;
+	cin >> side;
 
 }
 
@@ -40,5 +40,5 @@ void Pyramid::drawMe()
 void Pyramid::outputToConsole()
 {
 	cout << endl;
-	cout <<fixed<<setprecision(2)<< "Pyramid " << name << " with base " << base << " Area: " << getArea() << " Perimiter:" << getPerimiter()<< endl<<endl;
+	cout <<fixed<<setprecision(3)<< "Pyramid " << name << " with side " << side << " Area: " << getArea() << " Perimiter:" << getPerimiter()<< endl<<endl;
 }
