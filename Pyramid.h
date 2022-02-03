@@ -16,7 +16,7 @@ class Pyramid
 		string getName();
 		void setName(string nameIn);
 		int getSide();
-		void setSide(int baseIn);
+		void setSide(int sideIn);
 		void readFromConsole();
 		void outputToConsole();
 		void drawMe();  //assignment2
