@@ -5,10 +5,10 @@ Pyramid::Pyramid() {
 	name = "DefaultPyramid";
 	side = 1;
 }
-Pyramid::Pyramid(string nameIn, int baseIn)
+Pyramid::Pyramid(string nameIn, int sideIn)
 {
 	name = nameIn;
-	side = baseIn;
+	side = sideIn;
 }
 double Pyramid::getArea() {
 	return sqrt(3) / 4.0 * ((double)side * (double)side);
