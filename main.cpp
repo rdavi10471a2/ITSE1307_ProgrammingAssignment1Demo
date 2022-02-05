@@ -23,7 +23,7 @@ int main()
 	{
 		//display menu using cout
 		//read user input choice
-		//choose shape to print using switch
+		//choose shape to print using switch see instructor GITHUB for example of making a menu and using switch statment
 	
 	} while (menuchoice != 0);
 	*/

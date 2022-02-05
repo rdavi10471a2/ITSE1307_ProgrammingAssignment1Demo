@@ -32,7 +32,8 @@ void Pyramid::readFromConsole() {
 
 }
 
-
+//implementation of drawMe for Pyramid (Equilateral triangle)
+//Square and rectangle should be much easier
 void Pyramid::drawMe()
 {
     // number of spaces
@@ -55,7 +56,7 @@ void Pyramid::drawMe()
         // values changing acc. to outer loop
         for (int j = 0; j <= i; j++) {
             // Printing stars
-            cout << "* ";  //space is important
+            cout << "* ";  //space is important for proper alignment
         }
 
         // Ending line after each row
